@@ -59,9 +59,9 @@ The app will now be running on `http://localhost:3000`.
 
 ## Code Structure
 
-- **`src/components`**: Contains all reusable components like `CourseCard`, `FilterButtons`, etc.
-- **`src/hooks`**: Contains custom hooks (if any) or used React hooks like `useState`, `useEffect`.
-- **`src/services`**: Contains API service code to fetch the course data.
+- **`src/components`**: Contains all reusable components like `Card`, `Filter`,`Navbar` etc.
+- **`src/index.js`**: Contains root element to render App and ToastContainer components.
+- **`src/data.js`**: Contains API service code to fetch the course data.
 - **`src/App.js`**: The main entry point that handles routing and page rendering.
 
 ## API Integration
